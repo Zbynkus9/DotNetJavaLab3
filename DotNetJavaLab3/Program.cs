@@ -23,6 +23,11 @@ class Program
         int[,] matrixD = MatrixMultiplayer.ParallelMultiplayer(matrixA, matrixB, numThreads);
         watch.Stop();
         Console.WriteLine($"Elapsed Matrix Parallel Multiplayer time: {watch.ElapsedMilliseconds} ms");
+        watch = System.Diagnostics.Stopwatch.StartNew();
+        int[,] matrixE = MatrixMultiplayer.ThreadMultiplayer(matrixA, matrixB, numThreads);
+        watch.Stop();
+        Console.WriteLine($"Elapsed Matrix Thread Multiplayer time: {watch.ElapsedMilliseconds} ms");
+        
         
         // Console.WriteLine("Matrix A:");
         // MatrixOperations.PrintMatrix(matrixA);
@@ -32,8 +37,9 @@ class Program
         // MatrixOperations.PrintMatrix(matrixC);
         // Console.WriteLine("Matrix D (A x B):");
         // MatrixOperations.PrintMatrix(matrixD);
-
-
+        // Console.WriteLine("Matrix E (A x B):");
+        // MatrixOperations.PrintMatrix(matrixE);
+ 
     }
     
 }

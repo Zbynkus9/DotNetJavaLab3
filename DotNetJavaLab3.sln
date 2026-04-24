@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetJavaLab3", "DotNetJavaLab3\DotNetJavaLab3.csproj", "{76D21058-A4B1-45BD-A5BE-2D4BC053CBED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "ImageProcessing\ImageProcessing.csproj", "{719475C1-C3D3-48F4-882C-6FE582ED1088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{76D21058-A4B1-45BD-A5BE-2D4BC053CBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D21058-A4B1-45BD-A5BE-2D4BC053CBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D21058-A4B1-45BD-A5BE-2D4BC053CBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719475C1-C3D3-48F4-882C-6FE582ED1088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719475C1-C3D3-48F4-882C-6FE582ED1088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719475C1-C3D3-48F4-882C-6FE582ED1088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719475C1-C3D3-48F4-882C-6FE582ED1088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
