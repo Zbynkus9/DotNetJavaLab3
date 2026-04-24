@@ -10,8 +10,7 @@ Projekt zrealizowany w ramach laboratorium z przedmiotu Platformy Programistyczn
 
 ## 🏗 Struktura Projektu i Kluczowe Klasy
 
-
-![img.png](img.png)
+<img width="405" height="399" alt="image" src="https://github.com/user-attachments/assets/bc35e924-86a6-49e7-aa77-43e4997ba701" />
 
 ### Moduł macierzy
 * **`MatrixMultiplier`**: Główna klasa logiczna.
