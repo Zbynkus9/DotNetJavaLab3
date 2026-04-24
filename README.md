@@ -5,8 +5,8 @@ Projekt zrealizowany w ramach laboratorium z przedmiotu Platformy Programistyczn
 
 
 ## Opis projektu
-1. **Matrix Multiplication (Console App):** 
-2. **Image Processing (WinForms App):** 
+1. **Matrix Multiplication (Console App):** Testy wydajnościowe mnożenia macierzy (sekwencyje, Paraller.For, Thread)
+2. **Image Processing (WinForms App):**  Aplikacja okienkowa pozwalająca na równoległe nakładanie różnych filtrów graficznych na wybrane zdjęcie przy wykorzystaniu asynchroniczności
 
 ## 🏗 Struktura Projektu i Kluczowe Klasy
 
