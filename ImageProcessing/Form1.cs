@@ -74,7 +74,7 @@ public partial class Form1 : Form
         btnProcess.Enabled = false;
         btnLoad.Enabled = false;
 
-        // Używamy Tasks (z puli wątków). To bezpieczne dla UI (nie zamraża go dzięki 'await')
+        // Tasks (z puli wątków).
         // Każde zadanie wykonuje się równolegle w osobnym wątku roboczym
         Task<Bitmap> task1 = Task.Run(() => ImageFilters.ApplyGrayscale(currentImage));
         Task<Bitmap> task2 = Task.Run(() => ImageFilters.ApplyNegative(currentImage));
